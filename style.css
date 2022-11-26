@@ -5,6 +5,7 @@ header, main{
 }
 button{
     width: 80px;
+    margin: 5px;
 }
 .perspectiva{
     border: 1px solid #000000;
@@ -34,32 +35,32 @@ button{
     background-color: -o-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     background-color: -ms-linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
     background-color: linear-gradient(bottom, #E0E0E0, #F9F9F9 70%);
-
    }
 H1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .Box-all-buttons{
-    width: 700px;
     height: 200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .Box-buttons{
+    margin: 15px;
     background-color: rgb(247, 247, 247);
-    width: 300px;
-    height: 100px;
+    width: 200px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
-    
 }
 .Box-only-button{
+    margin: 15px;
     background-color: rgb(247, 247, 247);
-    width: 200px;
-    height: 100px;
+    width: 120px;
+    height:70px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -71,7 +72,6 @@ H1{
 }
 .dark-mode:hover{
     background-color: rgb(141, 141, 141);
-
 }
 .light-mode{
     background-color: #fff;
