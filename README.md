@@ -19,4 +19,4 @@
 - Interruptor de Lâmpada.
 
 ## PARA UTILIZAR O PROJETO, ACESSE
-➡️ https://jvoa02.github.io/Lampada_1/
+➡️ https://jvoa02.github.io/light/
